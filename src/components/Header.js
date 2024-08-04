@@ -63,7 +63,7 @@ export const Header = () => {
     <header>
       <nav
         aria-label="Global"
-        className=" shadow-ch-header flex h-16 items-center lg:px-8"
+        className=" shadow-ch-header flex h-16 items-center lg:px-4"
       >
         <a href="#" className="px-1.5">
           <span className="sr-only">Chrome</span>
@@ -79,7 +79,7 @@ export const Header = () => {
             <Bars3Icon aria-hidden="true" className="h-6 w-6" />
           </button>
         </div>
-        <PopoverGroup className="hidden mx-8 lg:flex ">
+        <PopoverGroup className="hidden mx-10 lg:flex ">
           <a href="#" className=" text-ch-gray font-medium leading-6 px-3">
             Home
           </a>
@@ -91,7 +91,7 @@ export const Header = () => {
               Features
               <ChevronDownIcon
                 aria-hidden="true"
-                className="h-5 w-5 flex-none text-ch-gray font-medium"
+                className="h-4 w-4 flex-none text-ch-gray font-medium"
               />
             </PopoverButton>
 
@@ -125,7 +125,7 @@ export const Header = () => {
               Support
               <ChevronDownIcon
                 aria-hidden="true"
-                className="h-5 w-5 flex-none text-ch-gray font-medium"
+                className="h-4 w-4 flex-none text-ch-gray font-medium"
               />
             </PopoverButton>
 
@@ -192,7 +192,7 @@ export const Header = () => {
                     Features
                     <ChevronDownIcon
                       aria-hidden="true"
-                      className="h-5 w-5 flex-none group-data-[open]:rotate-180 text-ch-gray font-medium"
+                      className="h-4 w-4 flex-none group-data-[open]:rotate-180 text-ch-gray font-medium"
                     />
                   </DisclosureButton>
                 </Disclosure>
@@ -202,7 +202,7 @@ export const Header = () => {
                     Support
                     <ChevronDownIcon
                       aria-hidden="true"
-                      className="h-5 w-5 flex-none group-data-[open]:rotate-180"
+                      className="h-4 w-4 flex-none group-data-[open]:rotate-180"
                     />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
